@@ -1,0 +1,61 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Create a new account</title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/4577eded13.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body>
+        <div class="box">
+            <div class="header">
+                <h1>Create your account</h1>
+            </div>
+            
+            <form action="signup.php" method="post" class="form" id="signup" novalidate>
+                <div class="txt_field" >
+                    <label for="name">User Name</label>
+                    <input type="text" id="name" name="name">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                    
+                </div>
+                <div class="txt_field" >
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                    
+                    
+                </div>
+                <div class="txt_field" >
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                    
+                </div>
+                <div  class="txt_field">
+                    <label for="conform_password">Conform Password</label>
+                    <input type="password" id="conform_password" name="conform_password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                    
+                </div>
+                <div >
+                    <p>Already have an account?  <a href="http://localhost/WAD/selfstudy/signup_signin/signin.php">Sign in</a></p>
+                    
+                </div>
+                <input type="submit" value="Create account" id="submit" name="submit">
+            </form>
+        </div>
+
+    </body>
+
+    </html>
